@@ -5,3 +5,6 @@ This is a simple and responsive login form built with **HTML** and **Pure CSS**.
 - Fully responsive (works on mobile and desktop)
 - No external frameworks (Pure CSS)
 - Easy to customize
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox/Grid)
