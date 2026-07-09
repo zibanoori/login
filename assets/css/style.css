@@ -50,5 +50,6 @@ button {
   --radius-md: 16px;
   --radius-sm: 12px;
 
-  
+  /* transition */
+  --transition: .2s;
 }
