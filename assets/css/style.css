@@ -72,7 +72,7 @@ body {
     grid-template-columns: 400px 1fr; 
     border-radius: var(--radius-lg);
     overflow: hidden; 
-    box-shadow: var(--shadow-lg); 
+    box-shadow:  10px 19px 12px rgba(59, 53, 53, 0.35);
     background: rgba(255, 255, 255, 0.1); 
     backdrop-filter: blur(30px); 
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -94,18 +94,21 @@ body {
     display: flex;
     align-items: center;
     gap: 15px; 
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 1.8rem; 
     font-weight: 700; 
     color: var(--primary);
+    margin-top: 60px;
 }
 .logo i {
-    font-size: 2.2rem; 
-    background: linear-gradient(135deg, #FF512F, #F09819); 
-    font-size: 2.2rem;
-    color: var(--text-light); 
-    padding-right: 5px;
-    padding-right: 5px;
-    border-radius: 50%; 
+    width: 50px;     
+    height: 50px;      
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    border-radius: 50%;   
+    background: linear-gradient(135deg, #f05738, #F09819, #FFD700); 
+    color: white;         
+    font-size: 1.5rem;       
+    margin-right: 15px;
 }
-
