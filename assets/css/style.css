@@ -15,7 +15,8 @@ ul {
 }
 img {
   display: block;
-  max-width: 100vh;
+  max-width: 100%; 
+  height: auto;
 }
 input,
 button {
@@ -23,7 +24,6 @@ button {
   border: none;
   outline: none;
 }
-
 button {
   cursor: pointer;
 }
@@ -37,20 +37,17 @@ button {
   --border: #757264;
   --white: #ff9760;
   --text: #458b73;
-  --text-lighi: #89b4a5;
-  --succes: #34725c;
+  --text-light: #89b4a5; 
+  --success: #34725c; 
 
-  /* shadow */
   --shadow-lg: 0 25px 50px rgba(59, 53, 53, 0.35);
   --shadow-sm: 0 25px 50px rgba(91, 75, 75, 0.35);
 
-  /* radius */
   --radius-xl: 35px;
   --radius-lg: 22px;
   --radius-md: 16px;
   --radius-sm: 12px;
 
-  /* transition */
   --transition: 0.2s;
 }
 
@@ -66,12 +63,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 20px; 
 }
-/* wrapper */
-.wrapper{
-    width: min(1400px 100px);
+
+
+.wrapper {
+    width: min(1400px, 100%); 
     min-height: 700px;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 400px 1fr; 
+    border-radius: var(--radius-lg);
+    overflow: hidden; 
+    box-shadow: var(--shadow-lg); 
 }
