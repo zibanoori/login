@@ -36,7 +36,7 @@ button {
   --surface-hover: #484539;
   --border: #757264;
   --white: #ff9760;
-  --text: #458b73;
+  --text: #26463b;
   --text-light: #89b4a5; 
   --success: #34725c; 
 
@@ -79,4 +79,13 @@ body {
 }
 .gallery{
     display: none;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #de644c;
+    backdrop-filter: blur(30px);
 }
