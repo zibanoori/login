@@ -43,7 +43,7 @@ button {
   /* shadow */
   --shadow-lg: 0 25px 50px rgba(59, 53, 53, 0.35);
   --shadow-sm: 0 25px 50px rgba(91, 75, 75, 0.35);
-  
+
   /* radius */
   --radius-xl: 35px;
   --radius-lg: 22px;
@@ -51,5 +51,11 @@ button {
   --radius-sm: 12px;
 
   /* transition */
-  --transition: .2s;
+  --transition: 0.2s;
+}
+
+/* body */
+body{
+    font-family: "Oswald",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--text);
 }
