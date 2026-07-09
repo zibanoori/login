@@ -17,3 +17,12 @@ img{
     display: block;
     max-width: 100vh;
 }
+input, button{
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
