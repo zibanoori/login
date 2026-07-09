@@ -27,3 +27,17 @@ button{
     cursor: pointer;
 }
 /* variables */
+:root{
+    --primary: #458B73;
+    --primary-dark: #2d5647;
+    --secondary: #3d392c;
+    --surface: #2a2821;
+    --surface-hover: #484539;
+    --border: #757264;
+    --white: #FF9760;
+    --text: #458B73;
+    --text-lighi: #89b4a5;
+    --succes: #34725c;
+
+
+}
