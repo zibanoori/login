@@ -88,4 +88,5 @@ body {
     padding: 30px;
     background-color: #de644c;
     backdrop-filter: blur(30px);
+    position: relative;
 }
