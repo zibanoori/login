@@ -97,13 +97,15 @@ body {
     margin-bottom: 40px;
     font-size: 1.8rem; 
     font-weight: 700; 
-    color: var(--primary); 
+    color: var(--primary);
 }
 .logo i {
     font-size: 2.2rem; 
     background: linear-gradient(135deg, #FF512F, #F09819); 
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    font-size: 2.2rem;
+    color: var(--text-light); 
     padding-right: 5px;
+    padding-right: 5px;
+    border-radius: 50%; 
 }
+
