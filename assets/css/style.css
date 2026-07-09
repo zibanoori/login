@@ -1,43 +1,46 @@
 /* Reset */
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-img{
-    display: block;
-    max-width: 100vh;
+img {
+  display: block;
+  max-width: 100vh;
 }
-input, button{
-    font: inherit;
-    border: none;
-    outline: none;
+input,
+button {
+  font: inherit;
+  border: none;
+  outline: none;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 /* variables */
-:root{
-    --primary: #458B73;
-    --primary-dark: #2d5647;
-    --secondary: #3d392c;
-    --surface: #2a2821;
-    --surface-hover: #484539;
-    --border: #757264;
-    --white: #FF9760;
-    --text: #458B73;
-    --text-lighi: #89b4a5;
-    --succes: #34725c;
+:root {
+  --primary: #458b73;
+  --primary-dark: #2d5647;
+  --secondary: #3d392c;
+  --surface: #2a2821;
+  --surface-hover: #484539;
+  --border: #757264;
+  --white: #ff9760;
+  --text: #458b73;
+  --text-lighi: #89b4a5;
+  --succes: #34725c;
 
-
+  /* shadow */
+  --shadow-lg: 0 25px 50px rgba(59, 53, 53, 0.35);
+  
 }
