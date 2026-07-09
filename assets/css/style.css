@@ -31,7 +31,7 @@ button {
 :root {
   --primary: #458b73;
   --primary-dark: #2d5647;
-  --secondary: #3d392c;
+  --secondary: #F26076;
   --surface: #2a2821;
   --surface-hover: #484539;
   --border: #757264;
@@ -55,7 +55,16 @@ button {
 }
 
 /* body */
-body{
-    font-family: "Oswald",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+    font-family: "Oswald", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--text);
+    background: 
+        radial-gradient(circle at top left, #FF9760, #FFD150),
+        radial-gradient(circle at bottom right, #FF9760, transparent),
+        linear-gradient(135deg, #FF512F, #F09819, #FFD700);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
