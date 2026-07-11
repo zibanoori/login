@@ -233,3 +233,9 @@ label {
     margin-left: 40px;
 }
 
+a{
+  color:  #26463b;
+}
+a:hover{
+  color:#417863
+}
