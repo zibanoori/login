@@ -222,4 +222,11 @@ label {
     color: rgb(205, 42, 42);
     font-size: 1rem;
 }
+.login-link{
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: white;
+    margin-left: 40px;
+}
 
