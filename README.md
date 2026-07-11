@@ -4,7 +4,7 @@ This is a simple and responsive login form built with **HTML** and **Pure CSS**.
 
 ## Preview
 
-<img src="assets/images/login.png" alt="Login Form Preview" width="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="assets/images/login.png" alt="Login Form Preview" width="400">
 
 ## Features
 
