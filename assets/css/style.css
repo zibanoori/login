@@ -86,7 +86,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   background-color: #de644c;
   backdrop-filter: blur(30px);
   position: relative;
@@ -95,11 +94,10 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 35px;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--primary);
-  margin-top: 60px;
 }
 .logo i {
   width: 50px;
@@ -170,12 +168,12 @@ label {
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 2px;
-  transition: transform 0.3s;
-  box-shadow: var(--shadow-lg);
+  transition: transform 0.1s;
+  box-shadow: var(--shadow-sm);
   margin-top: 10px;
 }
 
 .login-btn:hover {
-  transform: translateY(-3px); 
+  transform: translateY(-1px); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
