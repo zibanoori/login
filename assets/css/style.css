@@ -188,9 +188,8 @@ label {
     font-size: 1rem;
     font-weight: 700;
     color: var(--text-light);
-    box-shadow: var(--shadow-sm);
-    border-radius: var(--radius-lg);
     margin: 10px 0;
+    white-space: nowrap; 
 }
 .divider::after{
     content: "";
