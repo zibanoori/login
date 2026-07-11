@@ -1,7 +1,7 @@
 # Login Form Project
 This is a simple and responsive login form built with **HTML** and **Pure CSS**.
 ## Preview
-![Login Form Preview](assets/images/readme.png "Login Form Screenshot")
+<img src="assets/images/readme.png" alt="Login Form Preview" width="400px">
 ## Features
 - Clean and modern design
 - Fully responsive (works on mobile and desktop)
