@@ -218,3 +218,8 @@ label {
   transform: translateY(-1px); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+.social button i{
+    color: rgb(205, 42, 42);
+    font-size: 1rem;
+}
+
