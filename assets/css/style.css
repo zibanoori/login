@@ -182,11 +182,25 @@ label {
 .divider{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    gap: 15px;
     font-size: 1rem;
     font-weight: 700;
     color: var(--text-light);
     box-shadow: var(--shadow-sm);
     border-radius: var(--radius-lg);
     margin: 10px 0;
+}
+.divider::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgba(250, 50, 50, 0.3);
+}
+.divider::before{
+  content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgba(250, 50, 50, 0.3);  
 }
