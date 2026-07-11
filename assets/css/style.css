@@ -212,4 +212,9 @@ label {
     padding: 10px;
     border-radius: var(--radius-md);
     background-color: var(--primary);
+    transition: transform 0.1s;
+}
+.social button:hover {
+  transform: translateY(-1px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
