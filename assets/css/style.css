@@ -203,3 +203,13 @@ label {
     height: 2px;
     background-color: rgba(250, 50, 50, 0.3);  
 }
+.social button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--radius-md);
+    background-color: var(--primary);
+}
