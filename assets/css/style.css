@@ -256,3 +256,10 @@ a:hover {
   gap: 20px;
   padding: 40px;
 }
+.card{
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  background: var(--primary-dark);
+}
