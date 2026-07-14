@@ -88,9 +88,7 @@ body {
   backdrop-filter: blur(30px);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.gallery {
-  display: none;
-}
+
 .login {
   display: flex;
   flex-direction: column;
@@ -250,4 +248,11 @@ a {
 }
 a:hover {
   color: #417863;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
 }
