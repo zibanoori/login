@@ -51,14 +51,22 @@ button {
   --transition: 0.2s;
 }
 
-::-moz-selection{
+::-moz-selection {
   color: var(--primary-dark);
   background-color: #fff;
 }
 
-::selection{
+::selection {
   color: var(--primary-dark);
   background-color: #fff;
+}
+
+html, body {
+  height: 100%; 
+  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /* body */
@@ -75,10 +83,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  box-sizing: border-box;
+  height: 100vh;
 }
 .wrapper {
   width: min(1400px, 100%);
-  min-height: 600px;
+  height: 80vh;
+  min-height: 700px;
   display: grid;
   grid-template-columns: 400px 1fr;
   border-radius: var(--radius-lg);
@@ -97,6 +108,8 @@ body {
   background-color: #e45f45;
   backdrop-filter: blur(30px);
   position: relative;
+  overflow-y: auto;
+  padding: 20px;
 }
 .logo {
   display: flex;
@@ -254,19 +267,28 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3);
+  align-content: space-around;
   gap: 20px;
-  padding: 40px;
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
 }
-.card{
+.card {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-md);
   cursor: pointer;
   background: var(--primary-dark);
+  height: 100%;
+  overflow: hidden;
 }
-.card img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-transition: .6s;
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.6s;
+}
+.card1 {
+  /* grid-column: span ;
+  grid-row: span ; */
 }
