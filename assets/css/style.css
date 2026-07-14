@@ -73,11 +73,11 @@ html, body {
 body {
   font-family:
     "Oswald", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: var(--text);
-  background:
-    radial-gradient(circle at top left, #eb6219, #ffd150),
-    radial-gradient(circle at bottom right, #ff9760, transparent),
-    linear-gradient(135deg, #f05738, #f09819, #ffd700);
+  color: #f0fdf4; /* متن سفید مایل به سبز خیلی روشن */
+background: 
+  radial-gradient(circle at top right, #0d9488, transparent 50%), /* هاله فیروزه‌ای تیره */
+  radial-gradient(circle at bottom left, #115e59, transparent 50%), /* هاله سبز جنگلی */
+  linear-gradient(135deg, #042f2e, #134e4a, #0f766e); /* گرادینت اصلی سبز کله‌غازی عمیق */
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e45f45;
+  background-color:linear-gradient(135deg, #042f2e, #133633, #10615a);
   backdrop-filter: blur(30px);
   position: relative;
   overflow-y: auto;
