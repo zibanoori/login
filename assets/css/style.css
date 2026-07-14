@@ -139,7 +139,7 @@ form {
 }
 .input-group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10px;
 }
 label {
@@ -289,6 +289,6 @@ a:hover {
   transition: 0.6s;
 }
 .card1 {
-  /* grid-column: span ;
-  grid-row: span ; */
+  grid-column: span 1;
+  grid-row: span ;
 }
