@@ -2,10 +2,6 @@
 
 This is a simple and responsive login form built with **HTML** and **Pure CSS**.
 
-## Preview
-
-<img src="assets/images/login.png" alt="Login Form Preview" width="400">
-
 ## Features
 
 - Clean and modern design
