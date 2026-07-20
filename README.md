@@ -1,21 +1,3 @@
-# Login Form Project
+# login | Glassic Login Form 
 
-This is a simple and responsive login form built with **HTML** and **Pure CSS**.
-
-## Features
-
-- Clean and modern design
-- Fully responsive (works on mobile and desktop)
-- No external frameworks (Pure CSS)
-- Easy to customize
-
-## Technologies Used
-
-- HTML5
-- CSS3 (Flexbox/Grid)
-
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/zibanoori/login.git
+Login (Glassic Login) is a sleek and modern login form that implements the popular glassmorphism design trend. This project showcases how to create beautiful, frosted-glass UI elements using pure HTML and CSS, featuring backdrop blur effects, transparency, and subtle shadows.
