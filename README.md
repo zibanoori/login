@@ -22,7 +22,7 @@ Login (Glassic Login) is a sleek and modern login form that implements the popul
 
 ## 📸 Preview
 
-![Preview](screenshot.png)
+![Preview](assets/images/log.png)
 
 ## 📝 License
 
